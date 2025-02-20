@@ -9,7 +9,7 @@ const Dashboard = () => {
   return (
     <Container fluid>
       <Row>
-        {/* Sidebar */}
+        
         <Col md={3} lg={2} className="bg-light vh-100 p-3">
           <Nav variant="pills" className="flex-column" activeKey={activeKey}>
             <Nav.Link as={Link} to="/active-listings" className="mb-2">
@@ -27,7 +27,7 @@ const Dashboard = () => {
           </Nav>
         </Col>
 
-        {/* Main Content */}
+        
         <Col md={9} lg={10} className="p-4">
           <Outlet />
         </Col>
