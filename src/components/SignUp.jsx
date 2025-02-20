@@ -17,7 +17,7 @@ const SignUp = () => {
       setError('Passwords do not match');
       return;
     }
-    // TODO: Add actual signup logic
+    
     navigate('/login');
   };
 
