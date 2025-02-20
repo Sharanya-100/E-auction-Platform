@@ -12,7 +12,7 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // TODO: Add actual login logic
+    
     navigate('/dashboard');
   };
 
