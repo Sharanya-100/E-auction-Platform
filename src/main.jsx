@@ -20,7 +20,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/dashboard" element={<Dashboard />}>
           <Route index element={<><Statistics /><ActiveListings /></>} />
           <Route path="active-listings" element={<ActiveListings />} />
-          {/* Add other routes */}
+          
         </Route>
       </Routes>
     </BrowserRouter>
