@@ -5,7 +5,7 @@ const ActiveListings = () => {
   const auctions = [
     { id: 1, title: 'Vintage Camera', currentBid: 150, endTime: '2023-12-31', image:'https://i.pinimg.com/736x/06/a4/79/06a479786f640055d9b129efd41b47c7.jpg'  },
     { id: 2, title: 'Antique Chair', currentBid: 300, endTime: '2023-12-28', image: 'https://i.pinimg.com/736x/9c/02/43/9c0243a81d2092ebded1a029c53f84dc.jpg' },
-    // Add more sample data
+    
   ];
 
   return (
